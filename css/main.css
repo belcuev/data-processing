@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
 html {
-    background-color: lightgray;
+    background-color: rgb(207,205,201);
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -18,13 +18,13 @@ body{
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: rgb(196, 189, 201);
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: rgb(196, 189, 201);
     line-height: 2.5em;
 }
 /*
@@ -43,7 +43,7 @@ h1.page-header{
  
 
  main.wrapper {
-    background-color: white;
+    background-color: rgb(199, 188, 207);
     overflow: auto;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
@@ -63,13 +63,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:rgb(33, 0, 56);
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: rgb(196, 189, 201);
     text-decoration: none;
 }
 
